@@ -1,0 +1,19 @@
+{
+  "name": "blognode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuangHuy164/MyBlog.git"
+  },
+  "author": "huy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuangHuy164/MyBlog/issues"
+  },
+  "homepage": "https://github.com/QuangHuy164/MyBlog#readme"
+}
