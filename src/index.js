@@ -1,4 +1,5 @@
 const express = require('express')
+const path = require('path')
 const morgan = require('morgan')
 const app = express()
 const handlebars = require('express-handlebars')
@@ -10,7 +11,7 @@ app.use(morgan('combined'))
 // Template engine
 app.engine('hbs', handlebars())
 app.set('view engine', 'handlebars')
-
+app.set('views', path.join(__dirname, 'resources/views'))
 
 
 app.get('/', (req, res) => {
