@@ -1,5 +1,9 @@
-.test {
-    background-color: red;
-    font-size: 20px;
-    position:absolute;
+@import 'variables';
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: green;
 }
